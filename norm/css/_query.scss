@@ -1,0 +1,126 @@
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  small {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .bg-img{
+    background-size: auto!important;
+  }
+  main{
+    flex-direction: column;
+    overflow: hidden;
+    flex-wrap: nowrap!important;
+    button{
+      width: 80%!important;
+      align-items: center!important;
+    }
+  }
+
+  section{
+    width: 100%!important;
+  }
+
+  .bg-pop2{
+    width: 95%!important;
+    padding: 20px!important;
+    height: 95%!important;
+    align-items:center;
+  }
+
+  svg{
+    width: 65%!important;
+  }
+
+  .strt{
+    div{
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .terms{
+    width: 100%!important;
+  }
+
+  .popCont{
+    width: 90%!important;
+  }
+}
+
+@media (max-width: 481px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  small {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .bg-img{
+    background-size: auto!important;
+  }
+  main{
+    flex-direction: column;
+    overflow: hidden;
+    flex-wrap: nowrap!important;
+    button{
+      width: 80%!important;
+      align-items: center!important;
+    }
+  }
+
+  section{
+    width: 100%!important;
+    height: 50%!important;
+  }
+
+  .bg-pop2{
+    width: 95%!important;
+    padding: 20px!important;
+    align-items:center;
+    height: 100% !important;
+    margin-top: 2%;
+    button{
+      margin-top: 2%;
+    }
+  }
+
+  svg{
+    width: 90%!important;
+  }
+
+  .terms{
+    width: 100%!important;
+  }
+
+  .popCont{
+    width: 90%!important;
+    height: 65%!important;
+    .strt{
+      margin-top: 5%;
+      button{
+        width: 100%!important;
+      }
+    }
+  }
+
+  .bg-blk2{
+    padding: 20px!important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1000px) and (orientation: landscape) {
+}
+
+/* Portrait IPAD */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
